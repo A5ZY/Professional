@@ -1,0 +1,43 @@
+<div class="card border-0" [ngClass]="current.theme === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'">
+  <div class="card-body my-4">
+    <div class="row">
+      <div class="col-sm-12 col-md-3 col-lg-3"></div>
+      <div class="col-sm-12 col-md-3 col-lg-3 align-self-center">
+        <div class="lh-lg">
+          <div class="display-2 fw-bold">about.</div> <br>
+          <div>
+            Hi, I'm Ahamed Fysal M, <br>
+            Associate Software Engineer at Adaptive Media India. <br>
+            Angular | HTML, CSS, JS | SQL.
+          </div>
+        </div>
+        <button class="btn pointer text-light mt-2" [ngStyle]="{'background-color': changeColor}"
+          (click)="visitSite()">Visit<img src="../../assets/svgs/chevron-double-right.svg" class="align-text-top"
+            alt="">
+        </button>
+      </div>
+      <!-- <div class="col-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sequi fuga perspiciatis harum corporis, ipsum
+          praesentium vel nihil, dolorum, alias odio veritatis placeat beatae vero esse optio dignissimos voluptatibus
+          facilis?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nemo, dicta debitis, dolore aspernatur expedita
+          architecto adipisci vitae magnam quibusdam voluptates porro fugit! Vero aliquam quod dicta. Illo, obcaecati
+          harum!
+        </div> -->
+      <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+        <img src="../../assets/images/uximage.jpg" style="border-radius: 50%;object-fit: fill;" width="300" height="300" alt="">
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3">
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="card border-0" [ngClass]="current.theme === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'">
+    <div class="card-body">
+      <marquee behavior="" direction="">
+        <img src="../../assets/images/angular.png" alt="">
+        <img src="../../assets/images/rxjslogo.png" alt="">
+      </marquee>
+    </div>
+  </div> -->

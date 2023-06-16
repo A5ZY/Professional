@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+  }
+  
+  #scrollText1 {
+      position: absolute;
+      top: 50%;
+      opacity: 0;
+      transform: translateY(15%) !important;
+      animation: slideIn 2s forwards;
+    }
+    #scrollImage {
+      position: absolute;
+      top: 50%;
+      opacity: 0;
+      transform: translateY(5%) !important;
+      animation: slideIn1 2s forwards !important;
+    }
+  @keyframes slideIn {
+    0% {
+      left: -100px;
+      opacity: 0;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes slideIn1 {
+    0% {
+      right: -100px;
+      opacity: 0;
+    }
+    100% {
+      right: 0;
+      opacity: 1;
+    }
+  }
+  
